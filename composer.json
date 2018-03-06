@@ -1,0 +1,27 @@
+{
+  "name": "aaroncadrian/carbon-macros",
+  "description": "Laravel package that contains custom macros for Carbon",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "5.*"
+  },
+  "author": {
+    "name": "Aaron Adrian",
+    "email": "aaroncadrian@gmail.com"
+  },
+  "autoload": {
+    "psr-4": {
+      "AaronAdrian\\CarbonMacros\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AaronAdrian\\CarbonMacros\\CarbonMacrosServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
