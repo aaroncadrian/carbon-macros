@@ -4,8 +4,8 @@
   "license": "MIT",
   "type": "library",
   "require": {
-    "php": ">=7.0",
-    "illuminate/support": "5.*"
+        "php": ">=5.5",
+        "illuminate/support": ">=5.0"
   },
   "author": {
     "name": "Aaron Adrian",
@@ -22,6 +22,5 @@
         "AaronAdrian\\CarbonMacros\\CarbonMacrosServiceProvider"
       ]
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
